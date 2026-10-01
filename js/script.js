@@ -117,7 +117,7 @@ const infoboxElement = document.getElementById("infobox")
 function showInfoBox(text)
 {
   infoboxElement.innerHTML = text;
-  add
+  infoboxElement.classList.add ("show")
 
   // ✏️ B. Skriv din kode her ↓
   
@@ -148,7 +148,7 @@ animalInfo.forEach(function (animal) {
     //    Afslut hver linje med <br> (undtagen den sidste).
     const animalDetails = `
       <strong>${animal.name}</strong><br>
-      
+      ${animal.species}
 
       
     `;
