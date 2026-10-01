@@ -3,6 +3,7 @@
 //  Noget af koden er skrevet for dig. Du skal tilføje, hvor der står ✏️
 // ==================================================================
 //
+
 // 🤖 SPARRING MED CHATGPT
 // Start med startprompten fra opgavebeskrivelsen.
 // Vis altid først din egen plan, kode eller forklaring – også hvis
@@ -24,7 +25,7 @@
 
 // ✏️ B. Skriv use strict her ↓
 
-
+"use strict"
 
 // ------------------------------------------------------------------
 // STEP 1: Data om dyrene
@@ -50,6 +51,33 @@
 
 // ✏️ Skriv dit array her ↓
 
+const animalInfo = [
+  {
+    className: "animal1",
+    name: "Simba",
+    species: "Løve",
+    age: 5,
+    food: "Kød"
+
+
+  },
+  {
+    className: "animal2",
+    name: "Dumbo",
+    species: "Elefant",
+    age: 8,
+    food: "Blade og frugt"
+
+  },
+  {
+    className: "animal3",
+    name: "Gerald",
+    species: "Giraf",
+    age: 6,
+    food: "Blade fra høje træer"
+
+  }
+] 
 
 
 // ✅ Test: Kig i Console – er der 3 dyr?
