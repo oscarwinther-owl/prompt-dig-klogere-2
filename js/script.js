@@ -95,7 +95,7 @@ console.log(animalInfo);
 
 // ✏️ Skriv din kode her ↓
 
-
+const infoboxElement = document.getElementById("infobox")
 
 // ------------------------------------------------------------------
 // STEP 3: Funktion der viser infoboksen
@@ -114,10 +114,13 @@ console.log(animalInfo);
 //       (Når du er færdig, må du gerne flytte { op i slutningen
 //       af linjen med funktionshovedet.)
 
+function showInfoBox(text)
 {
   infoboxElement.innerHTML = text;
+  add
 
   // ✏️ B. Skriv din kode her ↓
+  
 
 
 }
