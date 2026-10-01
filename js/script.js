@@ -148,13 +148,18 @@ animalInfo.forEach(function (animal) {
     //    Afslut hver linje med <br> (undtagen den sidste).
     const animalDetails = `
       <strong>${animal.name}</strong><br>
-      ${animal.species}
+      ${animal.species} <br>
+      ${animal.age} år <br> 
+      ${animal.food} 
+      `;
+      showInfoBox(animalDetails)
 
       
-    `;
+    
 
     // ✏️ Skriv dit funktionskald til funktionen showInfoBox
     //    med animalDetails her ↓
+
 
 
   });
